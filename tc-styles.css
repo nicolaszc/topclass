@@ -82,10 +82,10 @@ header,footer{
 
 /* Media Querys Mobile*/
 @media (max-width:576px){
-    body{
+    /* body{
         background-size: 400%;
         background-position: 40% center;
-    }
+    } */
     .coming-soon .content .logo{
         margin-top: 60%;
     }
