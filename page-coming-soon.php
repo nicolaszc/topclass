@@ -14,7 +14,8 @@ defined('ABSPATH') || exit;
 
 get_header();
 ?>
-<style>body{background-image: url(<?php echo get_post_meta($post->ID, 'body_bg', true)); ?>}</style>
+
+<style>body{background-image: url(<?php echo get_post_meta($post->ID, 'body_bg', true); ?>) }</style>
   <div id="content" class="site-content">
     <div id="primary" class="content-area">
 
