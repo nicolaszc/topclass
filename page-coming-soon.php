@@ -29,7 +29,7 @@ get_header();
                 <p style="margin-top: 0;"><?php echo get_post_meta($post->ID, 'bajada', true); ?></p>
                 <?php the_content(); ?>
               </div>
-              <small>©<?php echo $_SERVER['HTTP_HOST'] ?> - Entertainment SpA company.</small> 
+              <small>©<?php echo $_SERVER['HTTP_HOST'] ?> - Grupo TopclassClub.</small> 
             </div>
           </div>
         </div>
