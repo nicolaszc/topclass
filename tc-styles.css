@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    background-image: url('topclass-bg.webp');
+    background-size: cover;
+    color: #fff;
+}
+header,footer{
+	display:none;
+}
+.btn-primary{
+    background-color: hsl(335, 100%, 46%);
+    border-color: #eb0063;
+    font-size: 14px;
+}
+.input-group{
+    width:60%;
+    margin:50px auto 0;
+}
+.coming-soon .input-group p{
+    font-size: 14px;
+    margin-top: 2rem!important;
+    width: 100%;
+}
+.form-control, .input-group-text{
+    font-size: 14px;
+}
+.input-group-text{
+    background-color: hsl(335, 100%, 46%);
+    border-color: #eb0063;
+    color: #fff;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: transparent; 
+    outline: 0;
+    box-shadow: none; 
+}
+.wpcf7-response-output{
+    border-color: transparent!important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, :not(.btn-check)+.btn:active{
+    background-color: #cc0055;
+    border-color: #cc0055;
+}
+.coming-soon{
+    width:40%;
+    margin:0 auto
+}
+.coming-soon .content{
+    display:flex;
+    justify-content:center;
+    height:100vh;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.coming-soon .content .logo{
+    height:40%;
+    text-align: 
+    center;width:100%;
+    margin-top: 40%;
+}
+.coming-soon .content .logo img{
+    width: 40%;
+}
+.coming-soon .content .logo p{
+    margin-top: 0;
+}
+.coming-soon small{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.wpcf7-spinner{
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 24px);
+    background-color: transparent!important;
+}
+
+/* Media Querys Mobile*/
+@media (max-width:576px){
+    body{
+        background-size: 400%;
+        background-position: 40% center;
+    }
+    .coming-soon .content .logo{
+        margin-top: 60%;
+    }
+    .input-group{
+        width:70%;
+        margin:50px auto 0;
+    }
+    .btn-primary{
+        display: block;
+        width: 50%;
+        margin: 0 auto 1rem;
+    }
+    .btn-primary.girls{
+        margin-top: 50px;
+    }
+    .coming-soon{
+        width:100%;
+    }
+    .coming-soon .content .logo img{
+        width: 60%;
+    }
+}
