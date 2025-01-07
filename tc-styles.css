@@ -73,6 +73,14 @@ header,footer{
     margin-bottom: 10px;
     font-size: 12px;
 }
+.coming-soon small a{
+    color: #fff;
+    text-decoration: underline;
+}
+.coming-soon small a:hover{
+    color: #fff;
+    text-decoration: none;
+}
 .wpcf7-spinner{
     position: absolute;
     top: -30px;
