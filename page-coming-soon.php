@@ -22,7 +22,14 @@ get_header();
       <main id="main" class="site-main">
 
         <div class="entry-content">
-          <?php the_content(); ?>
+          <div class="coming-soon">
+            <div class="content">
+              <div class="logo">
+                <?php the_content(); ?>
+              </div>
+              <small>©<?php echo $_SERVER['HTTP_HOST'] ?> - Entertainment SpA company.</small> 
+            </div>
+          </div>
         </div>
 
       </main>
