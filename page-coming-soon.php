@@ -39,7 +39,7 @@ get_header();
                 <p style="margin-top: 0;"><?php echo get_post_meta($post->ID, 'bajada', true); ?></p>
                 <?php the_content(); ?>
               </div>
-              <small>© <?php echo $_SERVER['HTTP_HOST'] ?> - <a href="topclass.club" >Grupo TopclassClub 2025.</a></small> 
+              <small>© <?php echo $_SERVER['HTTP_HOST'] ?> - <a href="https://topclass.club" >Grupo TopclassClub 2025.</a></small> 
             </div>
           </div>
         </div>
