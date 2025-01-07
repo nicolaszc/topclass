@@ -15,7 +15,17 @@ defined('ABSPATH') || exit;
 get_header();
 ?>
 
-<style>body{background-image: url(<?php echo get_post_meta($post->ID, 'body_bg', true); ?>) }</style>
+  <style>
+    body{
+      background-image: url(<?php echo get_post_meta($post->ID, 'body_bg', true) ?>); 
+    }
+    @media (max-width:576px){
+      body{
+          background-size: <?php echo get_post_meta($post->ID, 'body_bg_size', true) ?>;
+          background-position: <?php echo get_post_meta($post->ID, 'body_bg_pos', true) ?>;
+      }
+    }
+  </style>
   <div id="content" class="site-content">
     <div id="primary" class="content-area">
 
@@ -29,7 +39,7 @@ get_header();
                 <p style="margin-top: 0;"><?php echo get_post_meta($post->ID, 'bajada', true); ?></p>
                 <?php the_content(); ?>
               </div>
-              <small>©<?php echo $_SERVER['HTTP_HOST'] ?> - Grupo TopclassClub.</small> 
+              <small>© <?php echo $_SERVER['HTTP_HOST'] ?> - Grupo TopclassClub 2025.</small> 
             </div>
           </div>
         </div>
