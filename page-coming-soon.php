@@ -25,6 +25,8 @@ get_header();
           <div class="coming-soon">
             <div class="content">
               <div class="logo">
+                <img src="<?php echo get_post_meta($post->ID, 'logo', true); ?>" alt="topclass-girls" />
+                <p style="margin-top: 0;"><?php echo get_post_meta($post->ID, 'bajada', true); ?></p>
                 <?php the_content(); ?>
               </div>
               <small>©<?php echo $_SERVER['HTTP_HOST'] ?> - Entertainment SpA company.</small> 
