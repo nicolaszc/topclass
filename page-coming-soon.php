@@ -51,7 +51,12 @@ if ($host == 'topclass-trans.com'){
               <div class="logo">
                 <img src="<?php echo $logo; ?>" alt="topclass-girls" />
                 <p style="margin-top: 0;"><?php echo $bajada; ?></p>
-                <?php echo $form; ?>
+                <?php if ($_SERVER['HTTP_HOST'] == 'topclass.club') : 
+                  the_content();
+                else:
+                  echo $form;
+                endif;                 
+                ?>
               </div>
               <small>© <?php echo $_SERVER['HTTP_HOST'] ?> - <a href="https://topclass.club" >Grupo TopclassClub 2025.</a></small> 
             </div>
