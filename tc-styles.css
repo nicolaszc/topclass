@@ -40,7 +40,7 @@ header,footer{
 }
 .wpcf7-response-output{
     border-color: transparent !important;
-    background-color: #46b450;
+    background-color: rgba(70, 180, 80, 0.75);
     font-size: 14px;
     display: inline-block;
     margin: 1em 0 0 !important;
@@ -54,13 +54,13 @@ header,footer{
     margin-right: 0.5em;
 }
 .wpcf7-form.invalid .wpcf7-response-output{
-    background-color: #ffb900;
+    background-color: rgba(255, 185, 0, 0.75);
 }
 .wpcf7-form.invalid .wpcf7-response-output::before{
     content: "\f071";
 } 
 .wpcf7-form.failed .wpcf7-response-output{
-    background-color: #eb0063;
+    background-color: rgba(235, 0, 99,, 0.75);
 }
 .wpcf7-form.failed .wpcf7-response-output::before{
     content: "\f00d";
