@@ -60,7 +60,7 @@ header,footer{
     content: "\f071";
 } 
 .wpcf7-form.failed .wpcf7-response-output{
-    background-color: rgba(235, 0, 99,, 0.75);
+    background-color: rgba(235, 0, 99, 0.75);
 }
 .wpcf7-form.failed .wpcf7-response-output::before{
     content: "\f00d";
