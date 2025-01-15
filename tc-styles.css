@@ -40,6 +40,7 @@ header,footer{
 }
 .wpcf7-response-output{
     border-color: transparent!important;
+    margin-top: 0!important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, :not(.btn-check)+.btn:active{
     background-color: #cc0055;
