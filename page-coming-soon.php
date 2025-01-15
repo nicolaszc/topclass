@@ -52,7 +52,7 @@ if ($host == 'topclass-trans.com'){
             <div class="content">
               <div class="logo">
                 <img src="<?php echo $logo; ?>" alt="topclass-girls" />
-                <p style="margin-top: 0;"><?php echo $bajada; ?></p>
+                <p style="margin: 0;"><?php echo $bajada; ?></p>
                 <?php if ($_SERVER['HTTP_HOST'] == 'topclass.club') : 
                   the_content();
                 else:
