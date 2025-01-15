@@ -56,7 +56,7 @@ if ($host == 'topclass-trans.com'){
                 <?php if ($_SERVER['HTTP_HOST'] == 'topclass.club') : 
                   the_content();
                 else:
-                  echo $form;
+                  echo apply_shortcodes($form);
                 endif;                 
                 ?>
               </div>
