@@ -55,12 +55,13 @@ header,footer{
 }
 .wpcf7-form.invalid .wpcf7-response-output{
     background-color: rgba(255, 185, 0, 0.75);
+    color: #261010;
 }
 .wpcf7-form.invalid .wpcf7-response-output::before{
     content: "\f071";
 } 
 .wpcf7-form.failed .wpcf7-response-output{
-    background-color: rgba(235, 0, 99,, 0.75);
+    background-color: rgba(235, 0, 99, 0.75);
 }
 .wpcf7-form.failed .wpcf7-response-output::before{
     content: "\f00d";
