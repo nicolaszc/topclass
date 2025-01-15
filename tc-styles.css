@@ -51,7 +51,7 @@ header,footer{
     content: "\f00c";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    margin-right: 0.5em;
+    margin-right: 0.25em;
 }
 .wpcf7-form.invalid .wpcf7-response-output{
     background-color: rgba(255, 185, 0, 0.75);
