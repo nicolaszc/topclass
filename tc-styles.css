@@ -55,6 +55,7 @@ header,footer{
 }
 .wpcf7-form.invalid .wpcf7-response-output{
     background-color: rgba(255, 185, 0, 0.75);
+    color: #261010;
 }
 .wpcf7-form.invalid .wpcf7-response-output::before{
     content: "\f071";
