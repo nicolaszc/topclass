@@ -39,8 +39,19 @@ header,footer{
     box-shadow: none; 
 }
 .wpcf7-response-output{
-    border-color: transparent!important;
-    margin-top: 0!important;
+    border-color: transparent !important;
+    background-color: #46b450;
+    font-size: 14px;
+    display: inline-block;
+    margin: 1em 0 0 !important;
+    padding: 0.2em 3em !important;
+    border-radius: 0.5em;
+}
+.wpcf7-response-output::before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.5em;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, :not(.btn-check)+.btn:active{
     background-color: #cc0055;
